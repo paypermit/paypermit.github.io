@@ -8,13 +8,13 @@ const HowItWorks = () => {
   const steps = [
     {
       icon: Bot,
-      title: 'Connect Your Bot',
-      description: 'Link your Telegram bot to PayPermit in under 5 minutes. Our guided setup makes it effortless.',
+      title: 'Connect Your Channel',
+      description: 'Link your Private Telegram channel to PayPermit less then minute. Our guided setup makes it effortless.',
       stepNumber: 1,
     },
     {
       icon: CreditCard,
-      title: 'Set Up Payment Plans',
+      title: 'Set Up Payment',
       description: 'Create subscription tiers, set pricing, and choose your preferred payment methods.',
       stepNumber: 2,
     },
@@ -112,10 +112,10 @@ const HowItWorks = () => {
                   <span className="text-sm font-medium text-white">Quick Setup</span>
                 </div>
                 <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">
-                  Ready in just 5 minutes
+                  Ready in just 2 minutes
                 </h3>
                 <p className="text-white/80">
-                  Most creators are up and running in under 5 minutes
+                  Most creators are up and running in under 2 minutes
                 </p>
               </div>
               <div className="flex items-center gap-4">
@@ -146,7 +146,7 @@ const HowItWorks = () => {
             },
             {
               title: 'Start for Free',
-              description: 'No upfront costs. Only pay when you start earning',
+              description: 'No upfront costs. Only pay when you start earning via transection fee',
               icon: CreditCard
             },
             {
@@ -177,11 +177,11 @@ const HowItWorks = () => {
         {/* CTA Button */}
         <div className="text-center mt-12">
           <button className="px-8 py-4 bg-[#0070ba] text-white rounded-full font-semibold text-lg hover:bg-[#003087] transition-all shadow-md hover:shadow-xl inline-flex items-center gap-2 group">
-            Start your 14-day free trial
+            Start your first project.
             <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
           </button>
           <p className="mt-4 text-sm text-gray-500">
-            No credit card required. Cancel anytime.
+            No subscription required.
           </p>
         </div>
       </Container>

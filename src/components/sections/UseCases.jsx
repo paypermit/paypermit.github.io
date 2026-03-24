@@ -18,6 +18,7 @@ const UseCases = () => {
       description: 'Build a private community for your customers, offer premium support, and create exclusive product releases.',
       benefits: ['Customer retention', 'Direct engagement', 'Product feedback'],
     },
+ 
     {
       icon: Sparkles,
       title: 'Creators & Artists',
@@ -128,10 +129,10 @@ const UseCases = () => {
                   </p>
                   <div className="flex items-center gap-3">
                     <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center text-white font-semibold">
-                      JD
+                      U
                     </div>
                     <div>
-                      <p className="text-white font-semibold">John Doe</p>
+                      <p className="text-white font-semibold">Ugaaska</p>
                       <p className="text-white/70 text-sm">Content Creator, 10K+ subscribers</p>
                     </div>
                   </div>

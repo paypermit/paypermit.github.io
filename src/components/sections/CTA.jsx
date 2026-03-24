@@ -37,7 +37,7 @@ const CTA = () => {
               className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bold text-white mb-4"
             >
               Ready to monetize your
-              <span className="block text-[#ffc439] mt-2">
+              <span className="block text-[#fff] mt-2">
                 community?
               </span>
             </motion.h2>
@@ -61,7 +61,7 @@ const CTA = () => {
             >
               <button
                 onClick={() => window.open('https://t.me/paypermit_bot', '_blank')}
-                className="group px-8 py-4 bg-[#ffc439] hover:bg-[#ffb33c] text-[#00112c] rounded-full font-semibold text-lg transition-all shadow-xl hover:shadow-2xl transform hover:scale-105 flex items-center justify-center gap-2"
+                className="group px-8 py-4 bg-[#fff] hover:bg-[#fff] text-[#0070ba] rounded-full font-semibold text-lg transition-all shadow-xl hover:shadow-2xl transform hover:scale-105 flex items-center justify-center gap-2"
               >
                 <Send size={20} className="group-hover:translate-x-1 transition-transform" />
                 Get Started Free

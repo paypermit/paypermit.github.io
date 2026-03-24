@@ -1,6 +1,6 @@
 export const navigationLinks = [
   { name: 'Features', href: '#features' },
-  { name: 'Pricing', href: '#pricing' },
+  // { name: 'Pricing', href: '#pricing' },
   { name: 'How it Works', href: '#how-it-works' },
   { name: 'FAQ', href: '#faq' },
   { name: 'Contact', href: '#contact' },

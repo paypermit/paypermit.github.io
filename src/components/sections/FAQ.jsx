@@ -106,10 +106,13 @@ const FAQ = () => {
                   <p className="text-white/80">We're here to help you get started</p>
                 </div>
               </div>
+              <a href='https://t.me/paypermitsupport'>
+
               <button className="px-6 py-3 bg-white text-[#0070ba] rounded-full font-semibold hover:bg-gray-100 transition-all shadow-md hover:shadow-lg inline-flex items-center gap-2 group">
                 Contact Support
                 <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </button>
+              </a>
             </div>
           </div>
         </FadeIn>
@@ -121,22 +124,27 @@ const FAQ = () => {
               icon: Mail,
               title: 'Email Support',
               description: 'Get a response within 24 hours',
-              action: 'support@paypermit.com',
-              type: 'email'
+              action: 'paypermitapp@gmail.com',
+              type: 'email',
+              link: ''
             },
             {
               icon: MessageCircle,
               title: 'Live Chat',
               description: 'Chat with our support team',
               action: 'Start live chat',
-              type: 'chat'
+              type: 'chat',
+              link: 'https://t.me/paypermitsupport'
+
             },
             {
               icon: Phone,
               title: 'Phone Support',
-              description: 'Available Mon-Fri, 9am-6pm',
+              description: 'Available Mon-Thr, 9am-6pm',
               action: 'Schedule a call',
-              type: 'phone'
+              type: 'phone',
+              link: 'https://t.me/paypermitsupport'
+
             }
           ].map((option, idx) => (
             <motion.div
@@ -162,10 +170,12 @@ const FAQ = () => {
                     <ArrowRight size={14} />
                   </a>
                 ) : (
-                  <button className="inline-flex items-center gap-1 text-[#0070ba] text-sm font-medium hover:gap-2 transition-all group-hover:gap-2">
+                  <a href={option.link}>
+                    <button className="inline-flex items-center gap-1 text-[#0070ba] text-sm font-medium hover:gap-2 transition-all group-hover:gap-2">
                     {option.action}
                     <ArrowRight size={14} />
                   </button>
+                  </a>
                 )}
               </div>
             </motion.div>
@@ -176,13 +186,10 @@ const FAQ = () => {
         <div className="mt-12 text-center">
           <p className="text-sm text-gray-500">
             Can't find what you're looking for? Check out our{' '}
-            <a href="#" className="text-[#0070ba] hover:underline font-medium">
+            <a href="https://t.me/paypermitsupport" className="text-[#0070ba] hover:underline font-medium">
               Help Center
             </a>{' '}
-            or{' '}
-            <a href="#" className="text-[#0070ba] hover:underline font-medium">
-              Documentation
-            </a>
+            
           </p>
         </div>
       </Container>

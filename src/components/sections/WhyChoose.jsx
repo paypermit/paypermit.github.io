@@ -39,12 +39,12 @@ const WhyChoose = () => {
   ];
 
   const comparison = [
-    { feature: 'Telegram Integration', paypermit: true, others: 'Limited' },
+    { feature: 'Telegram Integration', paypermit: true, others: 'Basic' },
     { feature: 'Automated Access', paypermit: true, others: 'Manual' },
-    { feature: 'Multiple Payment Methods', paypermit: true, others: 'Card only' },
-    { feature: 'Analytics Dashboard', paypermit: true, others: 'Basic' },
-    { feature: 'Subscriber Management', paypermit: true, others: 'Manual' },
-    { feature: 'Fraud Protection', paypermit: true, others: 'Basic' },
+    { feature: 'Multiple Payment Methods', paypermit: true, others: 'Manual' },
+    { feature: 'Analytics Dashboard', paypermit: true, others: false },
+    { feature: 'Subscriber Management', paypermit: true, others: false },
+    { feature: 'Fraud Protection', paypermit: true, others: false },
     { feature: '24/7 Automation', paypermit: true, others: false },
     { feature: 'API Access', paypermit: true, others: false },
   ];
@@ -149,7 +149,7 @@ const WhyChoose = () => {
                 <span className="text-sm font-medium text-gray-700">Why We're Different</span>
               </div>
               <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
-                PayPermit vs. Competitors
+                PayPermit vs. Traditional Way
               </h3>
               <p className="text-gray-600 max-w-2xl mx-auto">
                 See how we stack up against other payment solutions
@@ -164,14 +164,14 @@ const WhyChoose = () => {
                       <th className="text-left py-4 px-6 text-gray-700 font-semibold">Feature</th>
                       <th className="text-center py-4 px-6 w-32">
                         <div className="inline-flex items-center gap-2">
-                          <div className="w-6 h-6 rounded-full bg-[#0070ba] flex items-center justify-center">
+                          {/* <div className="w-6 h-6 rounded-full bg-[#0070ba] flex items-center justify-center">
                             <span className="text-white text-xs font-bold">P</span>
-                          </div>
+                          </div> */}
                           <span className="font-semibold text-[#0070ba]">PayPermit</span>
                         </div>
                       </th>
                       <th className="text-center py-4 px-6 w-32">
-                        <span className="text-gray-500 font-semibold">Others</span>
+                        <span className="text-gray-500 font-semibold">Traditional</span>
                       </th>
                     </tr>
                   </thead>

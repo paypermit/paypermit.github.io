@@ -79,17 +79,7 @@ const Navbar = () => {
             
             <div className={`h-5 w-px ${scrolled ? 'bg-gray-300' : 'bg-white/30'} mx-2`} />
             
-            <button
-              className={`text-sm font-medium transition-colors ${
-                scrolled
-                  ? 'text-gray-700 hover:text-[#0070ba]'
-                  : 'text-white hover:text-gray-200'
-              }`}
-              onClick={() => window.open('https://t.me/paypermit_bot', '_blank')}
-            >
-              Log In
-            </button>
-            
+           
             <button
               onClick={() => window.open('https://t.me/paypermit_bot', '_blank')}
               className={`px-5 py-2 rounded-full text-sm font-semibold transition-all ${

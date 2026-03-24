@@ -36,7 +36,7 @@ function App() {
         <Features />
         <HowItWorks />
         <UseCases />
-        <Pricing />
+        {/* <Pricing /> */}
         <WhyChoose />
         <FAQ />
         <CTA />

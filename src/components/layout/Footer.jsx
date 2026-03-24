@@ -33,19 +33,20 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { icon: Twitter, href: '#', label: 'Twitter', color: 'hover:bg-[#1DA1F2]' },
-    { icon: Github, href: '#', label: 'GitHub', color: 'hover:bg-[#333]' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn', color: 'hover:bg-[#0077B5]' },
-    { icon: Facebook, href: '#', label: 'Facebook', color: 'hover:bg-[#1877F2]' },
-    { icon: Youtube, href: '#', label: 'YouTube', color: 'hover:bg-[#FF0000]' },
-    { icon: Instagram, href: '#', label: 'Instagram', color: 'hover:bg-gradient-to-r from-[#833AB4] to-[#FD1D1D]' },
+    { icon: Twitter, href: 'https://twitter.com/paypermit', label: 'Twitter', color: 'hover:bg-[#1DA1F2]' },
+    { icon: Github, href: 'https://github.com/paypermit', label: 'GitHub', color: 'hover:bg-[#333]' },
+    { icon: Linkedin, href: 'https://linkedin.com/company/paypermit', label: 'LinkedIn', color: 'hover:bg-[#0077B5]' },
+    { icon: Facebook, href: 'https://facebook.com/paypermit', label: 'Facebook', color: 'hover:bg-[#1877F2]' },
+    { icon: Youtube, href: 'https://youtube.com/paypermit', label: 'YouTube', color: 'hover:bg-[#FF0000]' },
+    { icon: Instagram, href: 'https://instagram.com/paypermit', label: 'Instagram', color: 'hover:bg-gradient-to-r from-[#833AB4] to-[#FD1D1D]' },
   ];
 
   const paymentMethods = [
+      { name: 'WaafiPay', icon: Globe },
     { name: 'Visa', icon: CreditCard },
     { name: 'Mastercard', icon: CreditCard },
     { name: 'PayPal', icon: Send },
-    { name: 'Bitcoin', icon: Globe },
+
   ];
 
   return (
@@ -56,11 +57,13 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8 lg:gap-12">
             {/* Brand Column - PayPal Style */}
             <div className="lg:col-span-2">
-              <div className="flex items-center gap-2 mb-4">
-                <div className="w-9 h-9 bg-[#0070ba] rounded-lg flex items-center justify-center">
-                  <Send size={18} className="text-white" />
-                </div>
-                <span className="text-xl font-bold text-gray-900">PayPermit</span>
+              <div className="flex items-center">
+ <img 
+                  src="/images/logo2.png" 
+                  alt="PayPermit Logo" 
+                  className="w-40  object-contain"
+                />
+                               
               </div>
               <p className="text-gray-600 text-sm mb-4 leading-relaxed">
                 The easiest way to accept subscription payments on Telegram. Monetize your community instantly.

@@ -12,11 +12,11 @@ const Features = () => {
   const features = [
     { icon: Zap, title: 'Instant Setup', description: 'Get started in minutes. No coding required. Connect your Telegram bot and start accepting payments immediately.' },
     { icon: Shield, title: 'Secure Payments', description: 'Bank-grade security with end-to-end encryption. Your transactions are always protected.' },
-    { icon: Wallet, title: 'Multiple Currencies', description: 'Support for USD, EUR, and local currencies. Accept payments from anywhere in the world.' },
+    { icon: Wallet, title: 'Multiple Currencies', description: 'Support for USD, and local currencies. Accept payments from anywhere in the world.' },
     { icon: Bot, title: 'Automated Bot', description: 'Fully automated payment processing. Your Telegram bot handles everything from payment to access management.' },
     { icon: BarChart, title: 'Analytics Dashboard', description: 'Track your revenue, subscriber growth, and payment performance with detailed analytics.' },
     { icon: Users, title: 'Member Management', description: 'Automatically manage subscriber access, send reminders, and handle expirations seamlessly.' },
-    { icon: CreditCard, title: 'Multiple Payment Methods', description: 'Support for cards, mobile money, and crypto payments. Give your users the flexibility they need.' },
+    { icon: CreditCard, title: 'Multiple Payment Methods', description: 'Support for cards, mobile money. Give your users the flexibility they need.' },
     { icon: Globe, title: 'Global Reach', description: 'Accept payments from users worldwide with support for 50+ currencies and local payment methods.' },
     { icon: Lock, title: 'Fraud Protection', description: 'Advanced fraud detection and prevention to keep your revenue safe.' },
     { icon: Rocket, title: 'Scalable Infrastructure', description: 'Built to handle millions of subscribers without breaking a sweat.' },
@@ -88,7 +88,7 @@ const Features = () => {
                 <div>
                   <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm mb-4">
                     <Rocket size={16} className="text-[#ffc439]" />
-                    <span className="text-sm font-medium text-white">Coming Soon</span>
+                    <span className="text-sm font-medium text-white">PayPermit 1.0</span>
                   </div>
                   <h3 className="text-2xl lg:text-3xl font-bold text-white mb-4">
                     Advanced Analytics Dashboard
@@ -153,7 +153,7 @@ const Features = () => {
             <span className="text-sm font-medium text-gray-700">Compare Features</span>
           </div>
           <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-            All features included in every plan
+            Access all features
           </h3>
           <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
             No hidden fees. No surprises. Get access to all features when you sign up.
