@@ -1,0 +1,332 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Testing
+/coverage
+/.nyc_output
+/.jest-cache
+/.vitest
+/cypress/videos
+/cypress/screenshots
+/cypress/downloads
+/cypress/fixtures/example.json
+
+# Production builds
+/build
+/dist
+/.next
+/out
+/.expo
+/build-production
+/.parcel-cache
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+.env.example
+.env.sample
+.env.backup
+.env.secret
+*.env
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.classpath
+.settings/
+*.sublime-*
+.vscode-test/
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/extensions.json
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# ESLint
+.eslintcache
+.eslintcache-*
+/.eslintcache
+
+# Prettier
+.prettiercache
+
+# Cache directories
+/.cache
+/.parcel-cache
+/.temp
+/tmp
+/temp
+.cache/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Microbundle
+.microbundle-cache/
+
+# Storybook
+storybook-static/
+.storybook-out/
+.storybook/out/
+
+# Rollup
+rollup.config.js.map
+*.rollup.js.map
+
+# Webpack
+webpack-stats.json
+webpack-stats-*.json
+
+# Yarn
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+.yarn/versions
+
+# Pnpm
+pnpm-lock.yaml
+.pnpm-store/
+
+# Vite
+.vite
+.vite-*
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Build outputs
+*.bundle.js
+*.bundle.js.map
+*.bundle.css
+*.bundle.css.map
+dist/
+build/
+out/
+public/build/
+public/dist/
+static/build/
+static/dist/
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Dependency directories
+jspm_packages/
+
+# Optional: Keep the .gitignore file itself
+!.gitignore
+
+# Misc
+*.pem
+*.crt
+*.key
+*.cert
+
+# Debug logs
+*.log
+*.log.*
+
+# Local development files
+.vscode/
+.idea/
+*.local
+*.backup
+*.tmp
+
+# Screenshots and test results
+/test-results
+/test-screenshots
+/screenshots
+/__screenshots__
+
+# Sentry
+.sentry/
+
+# Config files that might contain sensitive data
+*.config.local.js
+*.config.local.ts
+*.config.js.local
+*.config.ts.local
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# React specific
+/service-worker.js
+/service-worker.js.map
+/precache-manifest.*.js
+
+# Web app manifests
+/manifest.json
+/manifest.webmanifest
+/site.webmanifest
+
+# PWA icons
+/icons/
+/icon-*.png
+
+# Generated files
+/generated/
+/src/generated/
+
+# Bundle analysis
+/stats.json
+/bundle-stats.html
+/bundle-analysis.html
+
+# Next.js specific
+.next/
+out/
+.next/cache/
+.next/build-manifest.json
+.next/prerender-manifest.json
+.next/server/
+.next/static/
+.next/standalone/
+.next/types/
+.next/trace
+
+# Expo
+.expo/
+expo-*.log
+web-build/
+.expo-shared/
+.expo-internal/
+
+# React Native
+ios/
+android/
+*.jks
+*.keystore
+*.p8
+*.p12
+*.mobileprovision
+*.xcodeproj/
+*.xcworkspace/
+
+# Firebase
+.firebase/
+.firebase-cache/
+.firebaserc.local
+*.firebase.json
+
+# Netlify
+.netlify/
+.netlify-cache/
+
+# Vercel
+.vercel/
+.vercel-cache/
+
+# Tailwind CSS
+tailwind.config.js.backup
+postcss.config.js.backup
+
+# Sentry config
+.sentryclirc
+.sentry/
+sentry.properties
+
+# TurboRepo
+.turbo
+.turborepo
+
+# ESLint
+.eslintcache
+
+# Prettier
+.prettiercache
+
+# Jest
+.jest-cache/
+.jest/
+coverage/
+
+# Cypress
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+cypress/fixtures/example.json
+cypress/fixtures/*.json
+
+# Playwright
+/playwright-report/
+/playwright/.cache/
+/test-results/
+
+# MSW (Mock Service Worker)
+/mocks/public/mockServiceWorker.js
+
+# Storybook
+storybook-static/
+.storybook-out/
+.storybook/out/
+
+# Optional: Keep lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
