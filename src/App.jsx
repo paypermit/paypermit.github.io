@@ -11,6 +11,7 @@ import Pricing from './components/sections/Pricing';
 import WhyChoose from './components/sections/WhyChoose';
 import FAQ from './components/sections/FAQ';
 import CTA from './components/sections/CTA';
+import PaymentMethods from './components/sections/PaymentMethod';
 
 function App() {
   const { scrollYProgress } = useScroll();
@@ -33,6 +34,7 @@ function App() {
       <main>
         <Hero />
         <TrustedBy />
+        <PaymentMethods />
         <Features />
         <HowItWorks />
         <UseCases />

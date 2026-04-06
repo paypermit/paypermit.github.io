@@ -261,10 +261,12 @@ const Navbar = () => {
            
             <button
               onClick={() => window.open('https://t.me/paypermit_bot', '_blank')}
-              className={`px-5 py-2 rounded-full text-sm font-semibold transition-all ${
+              className={`px-5 py-3 rounded-full text-sm font-semibold transition-all ${
                 scrolled
                   ? 'bg-[#0070ba] text-white hover:bg-[#003087] shadow-md'
-                  : 'bg-white text-[#0070ba] hover:bg-gray-100 shadow-lg'
+                  : 'bg-[#0070ba] text-white hover:bg-[#003087] shadow-md'
+
+                  // : 'bg-[#0070ba] text-[#fff] hover:bg-gray-100 shadow-lg'
               }`}
             >
               Get Started
