@@ -105,7 +105,7 @@ const Navbar = () => {
                   : 'text-white hover:bg-white/10'
               }`}
             >
-              {isOpen ? <X size={24} /> : <Menu size={24} />}
+              {isOpen ? <X size={24} color='#0070ba' /> : <Menu size={24} color='#0070ba' />}
             </button>
           </div>
         </div>
