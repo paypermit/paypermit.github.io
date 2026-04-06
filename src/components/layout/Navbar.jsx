@@ -24,9 +24,9 @@ const Navbar = () => {
   };
 
   return (
-    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+    <nav className={`fixed top-0 left-0 right-0 z-50  transition-all duration-300 ${
       scrolled 
-        ? 'bg-white shadow-md border-b border-gray-100' 
+        ? 'bg-white   border-gray-100' 
         : 'bg-transparent'
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -122,13 +122,13 @@ const Navbar = () => {
           >
             <div className="px-4 py-6 space-y-4">
               {/* Mobile menu logo */}
-              <div className="mb-4 pb-4 border-b border-gray-100">
+              {/* <div className="mb-4 pb-4 border-b border-gray-100">
                 <img 
                   src="/images/logo2.png" 
                   alt="PayPermit Logo" 
                   className="w-32 h-32 object-contain"
                 />
-              </div>
+              </div> */}
               {navigationLinks.map((link) => (
                 <button
                   key={link.href}
