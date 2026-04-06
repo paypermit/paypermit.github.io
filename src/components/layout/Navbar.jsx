@@ -42,7 +42,8 @@ const Navbar = () => {
           >
             {/* Logo for scrolled state (white background) */}
             {scrolled ? (
-              <div className="text-xl font-bold text-[#0070ba] group-hover:text-[#003087] transition-colors">
+              <div 
+              className="text-xl font-bold text-[#0070ba] group-hover:text-[#003087] transition-colors">
                 <img 
                   src="/images/logo2.png" 
                   alt="PayPermit Logo" 
@@ -53,9 +54,11 @@ const Navbar = () => {
               /* Logo for transparent navbar (with white text or light version) */
               <div className="text-xl font-bold transition-colors">
                 <img 
-                  src="/images/logo3.png" 
+                  src="/images/logo2.png" 
                   alt="PayPermit Logo" 
-                  className="w-36 h-36 object-contain p-1 brightness-0 invert"
+                  className="w-36 h-36 object-contain p-1"
+
+                  // className="w-36 h-36 object-contain p-1 brightness-0 invert"
                 />
               </div>
             )}
@@ -70,7 +73,7 @@ const Navbar = () => {
                 className={`text-sm font-medium transition-colors ${
                   scrolled
                     ? 'text-gray-700 hover:text-[#0070ba]'
-                    : 'text-white hover:text-gray-200'
+                    : 'text-[#003087] hover:text-gray-200'
                 }`}
               >
                 {link.name}

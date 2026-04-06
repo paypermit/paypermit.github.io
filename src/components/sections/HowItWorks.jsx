@@ -27,7 +27,7 @@ const HowItWorks = () => {
     {
       icon: Rocket,
       title: 'Get Paid Automatically',
-      description: 'Our bot handles everything. Users get access instantly, you get paid automatically.',
+      description: 'Our system handles everything. Users get access instantly, you get paid automatically.',
       stepNumber: 4,
     },
   ];
