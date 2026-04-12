@@ -8,7 +8,7 @@ const TrustedBy = () => {
   const logos = [
     { name: 'TechCrunch', gradient: 'from-gray-600 to-gray-400' },
     { name: 'ProductHunt', gradient: 'from-[#ffc439] to-[#ffb347]' },
-    { name: 'Forbes', gradient: 'from-[#0070ba] to-[#003087]' },
+    { name: 'Forbes', gradient: 'from-[#019be0] to-[#042e72]' },
     { name: 'VentureBeat', gradient: 'from-[#00a86b] to-[#008f5a]' },
     { name: 'The Verge', gradient: 'from-[#ff5e3a] to-[#ff3a1a]' },
     { name: 'Wired', gradient: 'from-[#1a1a1a] to-[#333333]' },
@@ -45,12 +45,12 @@ const TrustedBy = () => {
           {/* Header - PayPal Style */}
           <div className="text-center max-w-3xl mx-auto mb-20">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gray-50 border border-gray-200 mb-6">
-              <Award size={16} className="text-[#0070ba]" />
+              <Award size={16} className="text-[#019be0]" />
               <span className="text-sm font-medium text-gray-700">Trusted Worldwide</span>
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
               Join thousands of creators
-              <span className="block text-[#0070ba] mt-2">
+              <span className="block text-[#019be0] mt-2">
                 already using PayPermit
               </span>
             </h2>
@@ -69,7 +69,7 @@ const TrustedBy = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
             viewport={{ once: true }}
-            className="relative overflow-hidden bg-gradient-to-r from-[#0070ba] to-[#003087] rounded-2xl p-12 text-center"
+            className="relative overflow-hidden bg-gradient-to-r from-[#019be0] to-[#042e72] rounded-2xl p-12 text-center"
           >
             {/* Background Pattern */}
             {/* <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%23ffffff" fill-opacity="0.05"%3E%3Cpath d="M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-20" /> */}
@@ -87,7 +87,7 @@ const TrustedBy = () => {
               </p>
               <button 
                 onClick={() => window.open('https://t.me/paypermit_bot', '_blank')}
-                className="group px-8 py-4 bg-[#fff] hover:bg-[#fff] text-[#0070ba] font-semibold rounded-full transition-all shadow-lg hover:shadow-xl inline-flex items-center gap-2 text-lg"
+                className="group px-8 py-4 bg-[#fff] hover:bg-[#fff] text-[#019be0] font-semibold rounded-full transition-all shadow-lg hover:shadow-xl inline-flex items-center gap-2 text-lg"
               >
                 Get Started Free
                 <ChevronRight size={20} className="group-hover:translate-x-1 transition-transform" />
@@ -114,7 +114,7 @@ const TrustedBy = () => {
                 viewport={{ once: true }}
                 className="flex items-center gap-2 px-4 py-2 rounded-full bg-gray-50 border border-gray-200"
               >
-                <badge.icon size={14} className="text-[#0070ba]" />
+                <badge.icon size={14} className="text-[#019be0]" />
                 <span className="text-xs text-gray-600 font-medium">{badge.text}</span>
               </motion.div>
             ))}

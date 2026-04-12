@@ -43,7 +43,7 @@
 //             {/* Logo for scrolled state (white background) */}
 //             {scrolled ? (
 //               <div 
-//               className="text-xl font-bold text-[#0070ba] group-hover:text-[#003087] transition-colors">
+//               className="text-xl font-bold text-[#019be0] group-hover:text-[#042e72] transition-colors">
 //                 <img 
 //                   src="/images/logo2.png" 
 //                   alt="PayPermit Logo" 
@@ -72,8 +72,8 @@
 //                 onClick={() => scrollToSection(link.href)}
 //                 className={`text-sm font-medium transition-colors ${
 //                   scrolled
-//                     ? 'text-gray-700 hover:text-[#0070ba]'
-//                     : 'text-[#003087] hover:text-gray-200'
+//                     ? 'text-gray-700 hover:text-[#019be0]'
+//                     : 'text-[#042e72] hover:text-gray-200'
 //                 }`}
 //               >
 //                 {link.name}
@@ -87,8 +87,8 @@
 //               onClick={() => window.open('https://t.me/paypermit_bot', '_blank')}
 //               className={`px-5 py-2 rounded-full text-sm font-semibold transition-all ${
 //                 scrolled
-//                   ? 'bg-[#0070ba] text-white hover:bg-[#003087] shadow-md'
-//                   : 'bg-white text-[#0070ba] hover:bg-gray-100 shadow-lg'
+//                   ? 'bg-[#019be0] text-white hover:bg-[#042e72] shadow-md'
+//                   : 'bg-white text-[#019be0] hover:bg-gray-100 shadow-lg'
 //               }`}
 //             >
 //               Get Started
@@ -105,7 +105,7 @@
 //                   : 'text-white hover:bg-white/10'
 //               }`}
 //             >
-//               {isOpen ? <X size={24} color='#0070ba' /> : <Menu size={24} color='#0070ba' />}
+//               {isOpen ? <X size={24} color='#019be0' /> : <Menu size={24} color='#019be0' />}
 //             </button>
 //           </div>
 //         </div>
@@ -133,7 +133,7 @@
 //                 <button
 //                   key={link.href}
 //                   onClick={() => scrollToSection(link.href)}
-//                   className="block w-full text-left py-2 text-gray-700 hover:text-[#0070ba] font-medium"
+//                   className="block w-full text-left py-2 text-gray-700 hover:text-[#019be0] font-medium"
 //                 >
 //                   {link.name}
 //                 </button>
@@ -144,7 +144,7 @@
 //                     window.open('https://t.me/paypermit_bot', '_blank');
 //                     setIsOpen(false);
 //                   }}
-//                   className="block w-full text-left py-2 text-gray-700 hover:text-[#0070ba] font-medium"
+//                   className="block w-full text-left py-2 text-gray-700 hover:text-[#019be0] font-medium"
 //                 >
 //                   Log In
 //                 </button>
@@ -153,7 +153,7 @@
 //                     window.open('https://t.me/paypermit_bot', '_blank');
 //                     setIsOpen(false);
 //                   }}
-//                   className="w-full mt-2 px-5 py-3 bg-[#0070ba] text-white rounded-full font-semibold hover:bg-[#003087] transition-colors"
+//                   className="w-full mt-2 px-5 py-3 bg-[#019be0] text-white rounded-full font-semibold hover:bg-[#042e72] transition-colors"
 //                 >
 //                   Get Started
 //                 </button>
@@ -221,7 +221,7 @@ const Navbar = () => {
             {/* Logo for scrolled state (white background) */}
             {scrolled ? (
               <div 
-              className="text-xl font-bold text-[#0070ba] group-hover:text-[#003087] transition-colors">
+              className="text-xl font-bold text-[#019be0] group-hover:text-[#042e72] transition-colors">
                 <img 
                   src="/images/logo2.png" 
                   alt="PayPermit Logo" 
@@ -248,8 +248,8 @@ const Navbar = () => {
                 onClick={() => scrollToSection(link.href)}
                 className={`text-sm font-medium transition-colors ${
                   scrolled
-                    ? 'text-gray-700 hover:text-[#0070ba]'
-                    : 'text-[#003087] hover:text-gray-200'
+                    ? 'text-gray-700 hover:text-[#019be0]'
+                    : 'text-[#042e72] hover:text-gray-200'
                 }`}
               >
                 {link.name}
@@ -263,10 +263,10 @@ const Navbar = () => {
               onClick={() => window.open('https://t.me/paypermit_bot', '_blank')}
               className={`px-5 py-3 rounded-full text-sm font-semibold transition-all ${
                 scrolled
-                  ? 'bg-[#0070ba] text-white hover:bg-[#003087] shadow-md'
-                  : 'bg-[#0070ba] text-white hover:bg-[#003087] shadow-md'
+                  ? 'bg-[#019be0] text-white hover:bg-[#042e72] shadow-md'
+                  : 'bg-[#019be0] text-white hover:bg-[#042e72] shadow-md'
 
-                  // : 'bg-[#0070ba] text-[#fff] hover:bg-gray-100 shadow-lg'
+                  // : 'bg-[#019be0] text-[#fff] hover:bg-gray-100 shadow-lg'
               }`}
             >
               Get Started
@@ -283,7 +283,7 @@ const Navbar = () => {
                   : 'text-white hover:bg-white/10'
               }`}
             >
-              {isOpen ? <X size={24} color='#0070ba' /> : <Menu size={24} color='#0070ba' />}
+              {isOpen ? <X size={24} color='#019be0' /> : <Menu size={24} color='#019be0' />}
             </button>
           </div>
         </div>
@@ -303,7 +303,7 @@ const Navbar = () => {
                 <button
                   key={link.href}
                   onClick={() => scrollToSection(link.href)}
-                  className="block w-full text-left py-2 text-gray-700 hover:text-[#0070ba] font-medium"
+                  className="block w-full text-left py-2 text-gray-700 hover:text-[#019be0] font-medium"
                 >
                   {link.name}
                 </button>
@@ -314,7 +314,7 @@ const Navbar = () => {
                     window.open('https://t.me/paypermit_bot', '_blank');
                     setIsOpen(false);
                   }}
-                  className="block w-full text-left py-2 text-gray-700 hover:text-[#0070ba] font-medium"
+                  className="block w-full text-left py-2 text-gray-700 hover:text-[#019be0] font-medium"
                 >
                   Log In
                 </button>
@@ -323,7 +323,7 @@ const Navbar = () => {
                     window.open('https://t.me/paypermit_bot', '_blank');
                     setIsOpen(false);
                   }}
-                  className="w-full mt-2 px-5 py-3 bg-[#0070ba] text-white rounded-full font-semibold hover:bg-[#003087] transition-colors"
+                  className="w-full mt-2 px-5 py-3 bg-[#019be0] text-white rounded-full font-semibold hover:bg-[#042e72] transition-colors"
                 >
                   Get Started
                 </button>

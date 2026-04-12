@@ -11,12 +11,12 @@ import { ArrowRight, Lock, Globe, Sparkles, Phone, Shield, CheckCircle, Send } f
 
 const Hero = () => {
   return (
-    <div className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-white via-white to-blue-50">
+    <div className="relative md:mx-10 md:rounded-3xl min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-[#019be0] via-[#019be0] to-[#019be0]">
       {/* Background Decorations */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-100 rounded-full blur-3xl opacity-50" />
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-purple-100 rounded-full blur-3xl opacity-50" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-blue-50 rounded-full blur-3xl opacity-30" />
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-[#019be0] rounded-full blur-3xl opacity-50" />
+        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-[#019be0] rounded-full blur-3xl opacity-50" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#019be0] rounded-full blur-3xl opacity-30" />
       </div>
 
       {/* Content */}
@@ -34,15 +34,15 @@ const Hero = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.2 }}
           >
-            <Sparkles size={16} className="text-[#0070ba]" />
-            <span className="text-sm text-[#003087] font-medium">Launch Your Premium Community Today</span>
+            <Sparkles size={16} className="text-[#019be0]" />
+            <span className="text-sm text-[#042e72] font-medium">Launch Your Premium Community Today</span>
           </motion.div>
 
           {/* Main Heading */}
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-gray-900 leading-tight mb-6">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-[#fff] leading-tight mb-6">
             Monetize Your{' '}
             <span className="relative inline-block">
-              <span className="relative z-10 bg-gradient-to-r from-[#003087] to-[#0070ba] bg-clip-text text-transparent">
+              <span className="relative z-10 bg-gradient-to-r from-[#fff] to-[#fff] bg-clip-text text-transparent">
                 Telegram Community
               </span>
               <motion.div 
@@ -53,11 +53,11 @@ const Hero = () => {
               />
             </span>
             <br />
-            <span className="text-gray-800">Seamlessly</span>
+            <span className="text-white">Seamlessly</span>
           </h1>
 
           {/* Subheading */}
-          <p className="text-lg md:text-xl text-gray-600 mb-10 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-lg md:text-xl text-[#042e72] mb-10 max-w-2xl mx-auto leading-relaxed">
             PayPermit helps creators and businesses accept subscription payments on Telegram automatically. 
             Set up in minutes, get paid instantly.
           </p>
@@ -66,7 +66,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <motion.button 
               onClick={() => window.open('https://t.me/paypermit_bot', '_blank')}
-              className="group px-8 py-4 bg-[#0070ba] hover:bg-[#003087] text-white rounded-xl font-semibold text-lg transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2"
+              className="group px-8 py-4 bg-[#042e72] hover:bg-[#042e72] text-white rounded-xl font-semibold text-lg transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -102,8 +102,8 @@ const Hero = () => {
                 transition={{ delay: 0.4 + idx * 0.1 }}
                 className="text-center"
               >
-                <div className="text-2xl md:text-3xl font-bold text-[#003087]">{stat.value}</div>
-                <div className="text-sm text-gray-500">{stat.label}</div>
+                <div className="text-2xl md:text-3xl font-bold text-[#fff]">{stat.value}</div>
+                <div className="text-sm text-white">{stat.label}</div>
               </motion.div>
             ))}
           </div>
@@ -123,9 +123,9 @@ const Hero = () => {
                 transition={{ delay: 0.7 + idx * 0.1 }}
               >
                 <div className="p-1.5 rounded-full bg-blue-50">
-                  <item.icon size={14} className="text-[#0070ba]" />
+                  <item.icon size={14} className="text-[#fff]" />
                 </div>
-                <span className="text-sm text-gray-600">{item.text}</span>
+                <span className="text-sm text-white">{item.text}</span>
               </motion.div>
             ))}
           </div>
@@ -144,9 +144,9 @@ const Hero = () => {
           }
         }}
       >
-        <div className="w-7 h-11 border-2 border-gray-300 rounded-full flex justify-center hover:border-[#0070ba] transition-colors">
+        <div className="w-7 h-11 border-2 border-gray-300 rounded-full flex justify-center hover:border-[#019be0] transition-colors">
           <motion.div 
-            className="w-1.5 h-2.5 bg-[#0070ba] rounded-full mt-2"
+            className="w-1.5 h-2.5 bg-[#019be0] rounded-full mt-2"
             animate={{ y: [0, 12, 0] }}
             transition={{ repeat: Infinity, duration: 1.5 }}
           />

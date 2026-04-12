@@ -63,12 +63,12 @@ const WhyChoose = () => {
           {/* Header - PayPal Style */}
           <div className="text-center max-w-3xl mx-auto mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gray-50 border border-gray-200 mb-6 shadow-sm">
-              <Award size={16} className="text-[#0070ba]" />
+              <Award size={16} className="text-[#019be0]" />
               <span className="text-sm font-medium text-gray-700">Why Choose Us</span>
             </div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
               The smarter way to
-              <span className="block text-[#0070ba] mt-2">
+              <span className="block text-[#019be0] mt-2">
                 monetize Telegram
               </span>
             </h2>
@@ -91,12 +91,12 @@ const WhyChoose = () => {
             >
               <div className="relative h-full bg-white rounded-2xl p-6 border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                 {/* Icon with PayPal Blue */}
-                <div className="w-12 h-12 rounded-xl bg-[#0070ba]/10 flex items-center justify-center mb-4 group-hover:bg-[#0070ba] transition-all duration-300">
-                  <benefit.icon size={22} className="text-[#0070ba] group-hover:text-white transition-colors duration-300" />
+                <div className="w-12 h-12 rounded-xl bg-[#019be0]/10 flex items-center justify-center mb-4 group-hover:bg-[#019be0] transition-all duration-300">
+                  <benefit.icon size={22} className="text-[#019be0] group-hover:text-white transition-colors duration-300" />
                 </div>
                 
                 {/* Title */}
-                <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-[#0070ba] transition-colors">
+                <h3 className="text-lg font-semibold text-gray-900 mb-2 group-hover:text-[#019be0] transition-colors">
                   {benefit.title}
                 </h3>
                 
@@ -106,7 +106,7 @@ const WhyChoose = () => {
                 </p>
                 
                 {/* Decorative Line */}
-                <div className="absolute bottom-0 left-6 right-6 h-0.5 bg-gradient-to-r from-[#0070ba] to-[#ffc439] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
+                <div className="absolute bottom-0 left-6 right-6 h-0.5 bg-gradient-to-r from-[#019be0] to-[#ffc439] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
               </div>
             </motion.div>
           ))}
@@ -114,7 +114,7 @@ const WhyChoose = () => {
 
         {/* Achievements Banner - PayPal Style */}
         <FadeIn direction="up" delay={0.2}>
-          <div className="bg-gradient-to-r from-[#0070ba] to-[#003087] rounded-2xl p-8 mb-20">
+          <div className="bg-gradient-to-r from-[#019be0] to-[#042e72] rounded-2xl p-8 mb-20">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
               {achievements.map((achievement, idx) => (
                 <motion.div
@@ -145,7 +145,7 @@ const WhyChoose = () => {
           <div className="mb-16">
             <div className="text-center mb-8">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gray-50 border border-gray-200 mb-4">
-                <Zap size={16} className="text-[#0070ba]" />
+                <Zap size={16} className="text-[#019be0]" />
                 <span className="text-sm font-medium text-gray-700">Why We're Different</span>
               </div>
               <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-2">
@@ -164,10 +164,10 @@ const WhyChoose = () => {
                       <th className="text-left py-4 px-6 text-gray-700 font-semibold">Feature</th>
                       <th className="text-center py-4 px-6 w-32">
                         <div className="inline-flex items-center gap-2">
-                          {/* <div className="w-6 h-6 rounded-full bg-[#0070ba] flex items-center justify-center">
+                          {/* <div className="w-6 h-6 rounded-full bg-[#019be0] flex items-center justify-center">
                             <span className="text-white text-xs font-bold">P</span>
                           </div> */}
-                          <span className="font-semibold text-[#0070ba]">PayPermit</span>
+                          <span className="font-semibold text-[#019be0]">PayPermit</span>
                         </div>
                       </th>
                       <th className="text-center py-4 px-6 w-32">
@@ -230,7 +230,7 @@ const WhyChoose = () => {
                 viewport={{ once: true }}
                 className="flex items-center gap-2 px-4 py-2 rounded-full bg-gray-50 border border-gray-200"
               >
-                <badge.icon size={14} className="text-[#0070ba]" />
+                <badge.icon size={14} className="text-[#019be0]" />
                 <span className="text-xs text-gray-600 font-medium">{badge.text}</span>
               </motion.div>
             ))}

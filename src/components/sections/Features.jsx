@@ -31,12 +31,12 @@ const Features = () => {
           {/* Header - PayPal Style */}
           <div className="text-center max-w-3xl mx-auto mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gray-50 border border-gray-200 mb-6">
-              <Zap size={16} className="text-[#0070ba]" />
+              <Zap size={16} className="text-[#019be0]" />
               <span className="text-sm font-medium text-gray-700">Powerful Features</span>
             </div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
               Everything you need to
-              <span className="block text-[#0070ba] mt-2">
+              <span className="block text-[#019be0] mt-2">
                 monetize your community
               </span>
             </h2>
@@ -59,12 +59,12 @@ const Features = () => {
             >
               <div className="relative h-full bg-white rounded-2xl p-6 border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                 {/* Icon with PayPal Blue */}
-                <div className="w-12 h-12 rounded-xl bg-[#0070ba]/10 flex items-center justify-center mb-5 group-hover:bg-[#0070ba] transition-all duration-300">
-                  <feature.icon size={24} className="text-[#0070ba] group-hover:text-white transition-colors duration-300" />
+                <div className="w-12 h-12 rounded-xl bg-[#019be0]/10 flex items-center justify-center mb-5 group-hover:bg-[#019be0] transition-all duration-300">
+                  <feature.icon size={24} className="text-[#019be0] group-hover:text-white transition-colors duration-300" />
                 </div>
                 
                 {/* Title */}
-                <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-[#0070ba] transition-colors">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-[#019be0] transition-colors">
                   {feature.title}
                 </h3>
                 
@@ -74,7 +74,7 @@ const Features = () => {
                 </p>
                 
                 {/* Decorative Line */}
-                <div className="absolute bottom-0 left-6 right-6 h-0.5 bg-gradient-to-r from-[#0070ba] to-[#ffc439] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
+                <div className="absolute bottom-0 left-6 right-6 h-0.5 bg-gradient-to-r from-[#019be0] to-[#ffc439] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
               </div>
             </motion.div>
           ))}
@@ -82,7 +82,7 @@ const Features = () => {
 
         {/* Feature Highlight Section - PayPal Style */}
         <div className="mt-20">
-          <div className="bg-gradient-to-r from-[#0070ba] to-[#003087] rounded-2xl overflow-hidden">
+          <div className="bg-gradient-to-r from-[#019be0] to-[#042e72] rounded-2xl overflow-hidden">
             <div className="grid lg:grid-cols-2 gap-8 p-8 lg:p-12">
               <div className="flex items-center">
                 <div>
@@ -149,7 +149,7 @@ const Features = () => {
         {/* Feature Comparison */}
         <div className="mt-20 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gray-50 border border-gray-200 mb-6">
-            <Shield size={16} className="text-[#0070ba]" />
+            <Shield size={16} className="text-[#019be0]" />
             <span className="text-sm font-medium text-gray-700">Compare Features</span>
           </div>
           <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
@@ -158,7 +158,7 @@ const Features = () => {
           <p className="text-gray-600 mb-8 max-w-2xl mx-auto">
             No hidden fees. No surprises. Get access to all features when you sign up.
           </p>
-          <button className="inline-flex items-center gap-2 text-[#0070ba] font-semibold hover:gap-3 transition-all group">
+          <button className="inline-flex items-center gap-2 text-[#019be0] font-semibold hover:gap-3 transition-all group">
             View all features
             <ChevronRight size={18} className="group-hover:translate-x-1 transition-transform" />
           </button>

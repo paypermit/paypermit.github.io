@@ -78,12 +78,12 @@ const Pricing = () => {
           {/* Header - PayPal Style */}
           <div className="text-center max-w-3xl mx-auto mb-12">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-gray-200 mb-6 shadow-sm">
-              <CreditCard size={16} className="text-[#0070ba]" />
+              <CreditCard size={16} className="text-[#019be0]" />
               <span className="text-sm font-medium text-gray-700">Simple Pricing</span>
             </div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
               Simple,
-              <span className="block text-[#0070ba] mt-2">
+              <span className="block text-[#019be0] mt-2">
                 transparent pricing
               </span>
             </h2>
@@ -99,7 +99,7 @@ const Pricing = () => {
                 onClick={() => setBillingPeriod('monthly')}
                 className={`px-6 py-2 rounded-full text-sm font-medium transition-all ${
                   billingPeriod === 'monthly'
-                    ? 'bg-white shadow-sm text-[#0070ba]'
+                    ? 'bg-white shadow-sm text-[#019be0]'
                     : 'text-gray-600 hover:text-gray-900'
                 }`}
               >
@@ -109,7 +109,7 @@ const Pricing = () => {
                 onClick={() => setBillingPeriod('yearly')}
                 className={`px-6 py-2 rounded-full text-sm font-medium transition-all ${
                   billingPeriod === 'yearly'
-                    ? 'bg-white shadow-sm text-[#0070ba]'
+                    ? 'bg-white shadow-sm text-[#019be0]'
                     : 'text-gray-600 hover:text-gray-900'
                 }`}
               >
@@ -144,7 +144,7 @@ const Pricing = () => {
               
               <div className={`h-full rounded-2xl bg-white transition-all duration-300 ${
                 plan.highlighted
-                  ? 'shadow-2xl border-2 border-[#0070ba] hover:shadow-3xl'
+                  ? 'shadow-2xl border-2 border-[#019be0] hover:shadow-3xl'
                   : 'shadow-lg border border-gray-100 hover:shadow-xl'
               }`}>
                 <div className="p-8">
@@ -169,7 +169,7 @@ const Pricing = () => {
                   <button
                     className={`w-full py-3 rounded-full font-semibold transition-all mb-6 ${
                       plan.highlighted
-                        ? 'bg-[#0070ba] text-white hover:bg-[#003087] shadow-md hover:shadow-lg'
+                        ? 'bg-[#019be0] text-white hover:bg-[#042e72] shadow-md hover:shadow-lg'
                         : 'bg-gray-100 text-gray-900 hover:bg-gray-200'
                     }`}
                     onClick={() => window.open('https://t.me/paypermit_bot', '_blank')}
@@ -181,7 +181,7 @@ const Pricing = () => {
                   <div className="space-y-3">
                     {plan.features.map((feature) => (
                       <div key={feature} className="flex items-start gap-2">
-                        <Check size={16} className="text-[#0070ba] flex-shrink-0 mt-0.5" />
+                        <Check size={16} className="text-[#019be0] flex-shrink-0 mt-0.5" />
                         <span className="text-sm text-gray-600">{feature}</span>
                       </div>
                     ))}
@@ -194,7 +194,7 @@ const Pricing = () => {
 
         {/* Free Trial Banner - PayPal Style */}
         <FadeIn direction="up" delay={0.3}>
-          <div className="bg-gradient-to-r from-[#0070ba] to-[#003087] rounded-2xl p-8 mb-12">
+          <div className="bg-gradient-to-r from-[#019be0] to-[#042e72] rounded-2xl p-8 mb-12">
             <div className="flex flex-col md:flex-row items-center justify-between gap-6">
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center">
@@ -207,7 +207,7 @@ const Pricing = () => {
               </div>
               <div className="flex items-center gap-3">
                 <span className="text-white/80 text-sm">No credit card required</span>
-                <button className="px-6 py-2 bg-white text-[#0070ba] rounded-full font-semibold hover:bg-gray-100 transition-all">
+                <button className="px-6 py-2 bg-white text-[#019be0] rounded-full font-semibold hover:bg-gray-100 transition-all">
                   Start Free Trial
                 </button>
               </div>
@@ -218,7 +218,7 @@ const Pricing = () => {
         {/* FAQ Section - PayPal Style */}
         <div className="text-center mb-8">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-gray-200 mb-6">
-            <Shield size={16} className="text-[#0070ba]" />
+            <Shield size={16} className="text-[#019be0]" />
             <span className="text-sm font-medium text-gray-700">Questions?</span>
           </div>
           <h3 className="text-2xl font-bold text-gray-900 mb-4">
@@ -268,7 +268,7 @@ const Pricing = () => {
           <p className="text-gray-600 mb-4">
             Need a custom plan for your enterprise?
           </p>
-          <button className="inline-flex items-center gap-2 text-[#0070ba] font-semibold hover:gap-3 transition-all group">
+          <button className="inline-flex items-center gap-2 text-[#019be0] font-semibold hover:gap-3 transition-all group">
             Contact our sales team
             <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
           </button>

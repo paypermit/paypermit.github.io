@@ -77,7 +77,7 @@ const Footer = () => {
                   { icon: Globe, text: 'Global Coverage' }
                 ].map((badge, idx) => (
                   <div key={idx} className="flex items-center gap-1.5 px-2 py-1 rounded-full bg-gray-50 border border-gray-200">
-                    <badge.icon size={12} className="text-[#0070ba]" />
+                    <badge.icon size={12} className="text-[#019be0]" />
                     <span className="text-xs text-gray-600">{badge.text}</span>
                   </div>
                 ))}
@@ -109,7 +109,7 @@ const Footer = () => {
                     <li key={link.name}>
                       <a
                         href={link.href}
-                        className="text-gray-600 hover:text-[#0070ba] transition-colors text-sm"
+                        className="text-gray-600 hover:text-[#019be0] transition-colors text-sm"
                       >
                         {link.name}
                       </a>
@@ -149,14 +149,14 @@ const Footer = () => {
               © {currentYear} PayPermit. All rights reserved.
             </p>
             <div className="flex gap-6 text-sm">
-              <a href="#" className="text-gray-500 hover:text-[#0070ba] transition-colors">Terms</a>
-              <a href="#" className="text-gray-500 hover:text-[#0070ba] transition-colors">Privacy</a>
-              <a href="#" className="text-gray-500 hover:text-[#0070ba] transition-colors">Cookies</a>
-              <a href="#" className="text-gray-500 hover:text-[#0070ba] transition-colors">Sitemap</a>
+              <a href="#" className="text-gray-500 hover:text-[#019be0] transition-colors">Terms</a>
+              <a href="#" className="text-gray-500 hover:text-[#019be0] transition-colors">Privacy</a>
+              <a href="#" className="text-gray-500 hover:text-[#019be0] transition-colors">Cookies</a>
+              <a href="#" className="text-gray-500 hover:text-[#019be0] transition-colors">Sitemap</a>
             </div>
             <div className="flex items-center gap-2">
               <Globe size={14} className="text-gray-400" />
-              <select className="text-sm text-gray-600 bg-transparent border-none focus:ring-0 cursor-pointer hover:text-[#0070ba]">
+              <select className="text-sm text-gray-600 bg-transparent border-none focus:ring-0 cursor-pointer hover:text-[#019be0]">
                 <option>English</option>
                 <option>Spanish</option>
                 <option>French</option>
@@ -172,7 +172,7 @@ const Footer = () => {
             <p className="text-xs text-gray-500">
               PayPermit is a registered payment facilitator. All transactions are secure and encrypted.
               <br />
-              <a href="#" className="text-[#0070ba] hover:underline">Learn more about security</a>
+              <a href="#" className="text-[#019be0] hover:underline">Learn more about security</a>
             </p>
           </div>
         </div>

@@ -38,7 +38,7 @@
 //           <div className="max-w-5xl mx-auto">
 //             <div className="bg-white rounded-3xl shadow-xl border border-gray-100 overflow-hidden">
 //               {/* Card Header - PayPal Style */}
-//               <div className="bg-gradient-to-r from-[#0070ba] to-[#003087 px-6 py-8 md:px-8 md:py-10">
+//               <div className="bg-gradient-to-r from-[#019be0] to-[#042e72 px-6 py-8 md:px-8 md:py-10">
 //                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
 //                   <div>
 //                     <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 backdrop-blur-sm mb-3">
@@ -74,7 +74,7 @@
 //                     >
 //                       <div className="relative h-full bg-white rounded-xl p-4 md:p-6 border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer">
 //                         {/* PayPal Style hover effect */}
-//                         <div className="absolute inset-0 bg-gradient-to-r from-[#0070ba]/0 to-[#0070ba]/0 rounded-xl group-hover:from-[#0070ba]/5 group-hover:to-[#003087]/5 transition-all duration-300" />
+//                         <div className="absolute inset-0 bg-gradient-to-r from-[#019be0]/0 to-[#019be0]/0 rounded-xl group-hover:from-[#019be0]/5 group-hover:to-[#042e72]/5 transition-all duration-300" />
                         
 //                         {/* Logo Container */}
 //                         <div className="flex items-center justify-center h-12 md:h-16 mb-3 md:mb-4">
@@ -100,14 +100,14 @@
                         
 //                         {/* Payment Name - Hidden on mobile, visible on hover for clean design */}
 //                         <div className="text-center">
-//                           <p className="text-xs text-gray-500 group-hover:text-[#0070ba] transition-colors duration-300">
+//                           <p className="text-xs text-gray-500 group-hover:text-[#019be0] transition-colors duration-300">
 //                             {payment.name}
 //                           </p>
 //                         </div>
 
 //                         {/* PayPal style checkmark on hover */}
 //                         <div className="absolute bottom-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-//                           <div className="w-5 h-5 rounded-full bg-[#0070ba] flex items-center justify-center">
+//                           <div className="w-5 h-5 rounded-full bg-[#019be0] flex items-center justify-center">
 //                             <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
 //                             </svg>
@@ -131,7 +131,7 @@
 //                     >
 //                       <div className="relative h-full bg-white rounded-xl p-4 md:p-6 border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer">
 //                         {/* PayPal Style hover effect */}
-//                         <div className="absolute inset-0 bg-gradient-to-r from-[#0070ba]/0 to-[#0070ba]/0 rounded-xl group-hover:from-[#0070ba]/5 group-hover:to-[#003087]/5 transition-all duration-300" />
+//                         <div className="absolute inset-0 bg-gradient-to-r from-[#019be0]/0 to-[#019be0]/0 rounded-xl group-hover:from-[#019be0]/5 group-hover:to-[#042e72]/5 transition-all duration-300" />
                         
 //                         {/* Logo Container */}
 //                         <div className="flex items-center justify-center h-12 md:h-16 mb-3 md:mb-4">
@@ -156,14 +156,14 @@
                         
 //                         {/* Payment Name */}
 //                         <div className="text-center">
-//                           <p className="text-xs text-gray-500 group-hover:text-[#0070ba] transition-colors duration-300">
+//                           <p className="text-xs text-gray-500 group-hover:text-[#019be0] transition-colors duration-300">
 //                             {payment.name}
 //                           </p>
 //                         </div>
 
 //                         {/* PayPal style checkmark on hover */}
 //                         <div className="absolute bottom-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-//                           <div className="w-5 h-5 rounded-full bg-[#0070ba] flex items-center justify-center">
+//                           <div className="w-5 h-5 rounded-full bg-[#019be0] flex items-center justify-center">
 //                             <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
 //                             </svg>
@@ -187,7 +187,7 @@
 //                 >
 //                   <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-xs text-gray-500">
 //                     <div className="flex items-center gap-2">
-//                       <CreditCard size={14} className="text-[#0070ba]" />
+//                       <CreditCard size={14} className="text-[#019be0]" />
 //                       <span>Your payment info is encrypted and secure</span>
 //                     </div>
 //                     <div className="flex items-center gap-2">
@@ -293,7 +293,7 @@
 //           <div className="max-w-5xl mx-auto">
 //             <div className="bg-white rounded-3xl shadow-xl border border-gray-100 overflow-hidden">
 //               {/* Card Header - PayPal Style */}
-//               <div className="bg-gradient-to-r from-[#0070ba] to-[#003087] px-6 py-8 md:px-8 md:py-10">
+//               <div className="bg-gradient-to-r from-[#019be0] to-[#042e72] px-6 py-8 md:px-8 md:py-10">
 //                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
 //                   <div>
 //                     <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 backdrop-blur-sm mb-3">
@@ -331,7 +331,7 @@
 //                       >
 //                         <div className="relative h-full bg-white rounded-xl p-4 md:p-6 border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer">
 //                           {/* PayPal Style hover effect */}
-//                           <div className="absolute inset-0 bg-gradient-to-r from-[#0070ba]/0 to-[#0070ba]/0 rounded-xl group-hover:from-[#0070ba]/5 group-hover:to-[#003087]/5 transition-all duration-300" />
+//                           <div className="absolute inset-0 bg-gradient-to-r from-[#019be0]/0 to-[#019be0]/0 rounded-xl group-hover:from-[#019be0]/5 group-hover:to-[#042e72]/5 transition-all duration-300" />
                           
 //                           {/* Logo Container with dynamic size */}
 //                           <div className={`flex items-center justify-center ${sizeClasses.container} mb-3 md:mb-4`}>
@@ -356,14 +356,14 @@
                           
 //                           {/* Payment Name - Only visible on hover */}
 //                           <div className="text-center">
-//                             <p className="text-xs text-gray-500 group-hover:text-[#0070ba] transition-colors duration-300">
+//                             <p className="text-xs text-gray-500 group-hover:text-[#019be0] transition-colors duration-300">
 //                               {payment.name}
 //                             </p>
 //                           </div>
 
 //                           {/* PayPal style checkmark on hover */}
 //                           <div className="absolute bottom-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-//                             <div className="w-5 h-5 rounded-full bg-[#0070ba] flex items-center justify-center">
+//                             <div className="w-5 h-5 rounded-full bg-[#019be0] flex items-center justify-center">
 //                               <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
 //                               </svg>
@@ -390,7 +390,7 @@
 //                       >
 //                         <div className="relative h-full bg-white rounded-xl p-4 md:p-6 border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer">
 //                           {/* PayPal Style hover effect */}
-//                           <div className="absolute inset-0 bg-gradient-to-r from-[#0070ba]/0 to-[#0070ba]/0 rounded-xl group-hover:from-[#0070ba]/5 group-hover:to-[#003087]/5 transition-all duration-300" />
+//                           <div className="absolute inset-0 bg-gradient-to-r from-[#019be0]/0 to-[#019be0]/0 rounded-xl group-hover:from-[#019be0]/5 group-hover:to-[#042e72]/5 transition-all duration-300" />
                           
 //                           {/* Logo Container with dynamic size */}
 //                           <div className={`flex items-center justify-center ${sizeClasses.container} mb-3 md:mb-4`}>
@@ -415,14 +415,14 @@
                           
 //                           {/* Payment Name */}
 //                           <div className="text-center">
-//                             <p className="text-xs text-gray-500 group-hover:text-[#0070ba] transition-colors duration-300">
+//                             <p className="text-xs text-gray-500 group-hover:text-[#019be0] transition-colors duration-300">
 //                               {payment.name}
 //                             </p>
 //                           </div>
 
 //                           {/* PayPal style checkmark on hover */}
 //                           <div className="absolute bottom-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-//                             <div className="w-5 h-5 rounded-full bg-[#0070ba] flex items-center justify-center">
+//                             <div className="w-5 h-5 rounded-full bg-[#019be0] flex items-center justify-center">
 //                               <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
 //                               </svg>
@@ -444,7 +444,7 @@
 //                 >
 //                   <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-xs text-gray-500">
 //                     <div className="flex items-center gap-2">
-//                       <CreditCard size={14} className="text-[#0070ba]" />
+//                       <CreditCard size={14} className="text-[#019be0]" />
 //                       <span>Your payment info is encrypted and secure</span>
 //                     </div>
 //                     <div className="flex items-center gap-2">
@@ -533,7 +533,7 @@
 //           <div className="max-w-5xl mx-auto">
 //             <div className="bg-white rounded-3xl shadow-xl border border-gray-100 overflow-hidden">
 //               {/* Card Header - PayPal Style */}
-//               <div className="bg-gradient-to-r from-[#0070ba] to-[#003087] px-6 py-8 md:px-8 md:py-10">
+//               <div className="bg-gradient-to-r from-[#019be0] to-[#042e72] px-6 py-8 md:px-8 md:py-10">
 //                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
 //                   <div>
 //                     <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 backdrop-blur-sm mb-3">
@@ -569,7 +569,7 @@
 //                     >
 //                       <div className="relative h-full bg-white rounded-xl p-4 md:p-6 border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer">
 //                         {/* PayPal Style hover effect */}
-//                         <div className="absolute inset-0 bg-gradient-to-r from-[#0070ba]/0 to-[#0070ba]/0 rounded-xl group-hover:from-[#0070ba]/5 group-hover:to-[#003087]/5 transition-all duration-300" />
+//                         <div className="absolute inset-0 bg-gradient-to-r from-[#019be0]/0 to-[#019be0]/0 rounded-xl group-hover:from-[#019be0]/5 group-hover:to-[#042e72]/5 transition-all duration-300" />
                         
 //                         {/* Logo Container - centered with custom size */}
 //                         <div className="flex items-center justify-center min-h-[80px]">
@@ -600,7 +600,7 @@
 
 //                         {/* PayPal style checkmark on hover */}
 //                         <div className="absolute bottom-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-//                           <div className="w-5 h-5 rounded-full bg-[#0070ba] flex items-center justify-center">
+//                           <div className="w-5 h-5 rounded-full bg-[#019be0] flex items-center justify-center">
 //                             <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
 //                             </svg>
@@ -624,7 +624,7 @@
 //                     >
 //                       <div className="relative h-full bg-white rounded-xl p-4 md:p-6 border border-gray-100 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer">
 //                         {/* PayPal Style hover effect */}
-//                         <div className="absolute inset-0 bg-gradient-to-r from-[#0070ba]/0 to-[#0070ba]/0 rounded-xl group-hover:from-[#0070ba]/5 group-hover:to-[#003087]/5 transition-all duration-300" />
+//                         <div className="absolute inset-0 bg-gradient-to-r from-[#019be0]/0 to-[#019be0]/0 rounded-xl group-hover:from-[#019be0]/5 group-hover:to-[#042e72]/5 transition-all duration-300" />
                         
 //                         {/* Logo Container - centered with custom size */}
 //                         <div className="flex items-center justify-center min-h-[80px]">
@@ -655,7 +655,7 @@
 
 //                         {/* PayPal style checkmark on hover */}
 //                         <div className="absolute bottom-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-//                           <div className="w-5 h-5 rounded-full bg-[#0070ba] flex items-center justify-center">
+//                           <div className="w-5 h-5 rounded-full bg-[#019be0] flex items-center justify-center">
 //                             <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
 //                             </svg>
@@ -676,7 +676,7 @@
 //                 >
 //                   <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-xs text-gray-500">
 //                     <div className="flex items-center gap-2">
-//                       <CreditCard size={14} className="text-[#0070ba]" />
+//                       <CreditCard size={14} className="text-[#019be0]" />
 //                       <span>Your payment info is encrypted and secure</span>
 //                     </div>
 //                     <div className="flex items-center gap-2">
@@ -780,7 +780,7 @@
 //           <div className="max-w-5xl mx-auto">
 //             <div className="bg-white rounded-3xl shadow-xl border border-gray-100 overflow-hidden">
 //               {/* Card Header - PayPal Style */}
-//               <div className="bg-gradient-to-r from-[#0070ba] to-[#003087] px-6 py-8 md:px-8 md:py-10">
+//               <div className="bg-gradient-to-r from-[#019be0] to-[#042e72] px-6 py-8 md:px-8 md:py-10">
 //                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
 //                   <div>
 //                     <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 backdrop-blur-sm mb-3">
@@ -844,7 +844,7 @@
 
 //                         {/* PayPal style checkmark on hover */}
 //                         <div className="absolute bottom-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-//                           <div className="w-5 h-5 rounded-full bg-[#0070ba] flex items-center justify-center">
+//                           <div className="w-5 h-5 rounded-full bg-[#019be0] flex items-center justify-center">
 //                             <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
 //                             </svg>
@@ -896,7 +896,7 @@
 
 //                         {/* PayPal style checkmark on hover */}
 //                         <div className="absolute bottom-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-//                           <div className="w-5 h-5 rounded-full bg-[#0070ba] flex items-center justify-center">
+//                           <div className="w-5 h-5 rounded-full bg-[#019be0] flex items-center justify-center">
 //                             <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
 //                             </svg>
@@ -949,7 +949,7 @@
 
 //                           {/* PayPal style checkmark on hover */}
 //                           <div className="absolute bottom-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-//                             <div className="w-5 h-5 rounded-full bg-[#0070ba] flex items-center justify-center">
+//                             <div className="w-5 h-5 rounded-full bg-[#019be0] flex items-center justify-center">
 //                               <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 //                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
 //                               </svg>
@@ -971,7 +971,7 @@
 //                 >
 //                   <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-xs text-gray-500">
 //                     <div className="flex items-center gap-2">
-//                       <CreditCard size={14} className="text-[#0070ba]" />
+//                       <CreditCard size={14} className="text-[#019be0]" />
 //                       <span>Your payment info is encrypted and secure</span>
 //                     </div>
 //                     <div className="flex items-center gap-2">
@@ -1074,7 +1074,7 @@ const PaymentMethods = () => {
           <div className="max-w-5xl mx-auto">
             <div className="bg-white rounded-3xl shadow-xl border border-gray-100 overflow-hidden">
               {/* Card Header - PayPal Style */}
-              <div className="bg-gradient-to-r from-[#0070ba] to-[#003087] px-6 py-8 md:px-8 md:py-10">
+              <div className="bg-gradient-to-r from-[#019be0] to-[#042e72] px-6 py-8 md:px-8 md:py-10">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
                   <div>
                     <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 backdrop-blur-sm mb-3">
@@ -1138,7 +1138,7 @@ const PaymentMethods = () => {
 
                         {/* PayPal style checkmark on hover */}
                         <div className="absolute bottom-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                          <div className="w-5 h-5 rounded-full bg-[#0070ba] flex items-center justify-center">
+                          <div className="w-5 h-5 rounded-full bg-[#019be0] flex items-center justify-center">
                             <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                             </svg>
@@ -1190,7 +1190,7 @@ const PaymentMethods = () => {
 
                         {/* PayPal style checkmark on hover */}
                         <div className="absolute bottom-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                          <div className="w-5 h-5 rounded-full bg-[#0070ba] flex items-center justify-center">
+                          <div className="w-5 h-5 rounded-full bg-[#019be0] flex items-center justify-center">
                             <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                             </svg>
@@ -1243,7 +1243,7 @@ const PaymentMethods = () => {
 
                           {/* PayPal style checkmark on hover */}
                           <div className="absolute bottom-2 right-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                            <div className="w-5 h-5 rounded-full bg-[#0070ba] flex items-center justify-center">
+                            <div className="w-5 h-5 rounded-full bg-[#019be0] flex items-center justify-center">
                               <svg className="w-3 h-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M5 13l4 4L19 7" />
                               </svg>
@@ -1268,7 +1268,7 @@ const PaymentMethods = () => {
                       // Add your click handler here
                       console.log('See all payment options clicked');
                     }}
-                    className="group relative inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-[#0070ba] to-[#003087] text-white font-semibold rounded-xl shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105"
+                    className="group relative inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-[#019be0] to-[#042e72] text-white font-semibold rounded-xl shadow-md hover:shadow-xl transition-all duration-300 hover:scale-105"
                   >
                     <CreditCard size={20} className="text-[#ffc439]" />
                     <span className="text-base md:text-lg">See all payment options</span>
@@ -1286,7 +1286,7 @@ const PaymentMethods = () => {
                 >
                   <div className="flex flex-col sm:flex-row items-center justify-center gap-4 text-xs text-gray-500">
                     <div className="flex items-center gap-2">
-                      <CreditCard size={14} className="text-[#0070ba]" />
+                      <CreditCard size={14} className="text-[#019be0]" />
                       <span>Your payment info is encrypted and secure</span>
                     </div>
                     <div className="flex items-center gap-2">

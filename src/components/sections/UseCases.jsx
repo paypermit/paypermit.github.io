@@ -52,12 +52,12 @@ const UseCases = () => {
           {/* Header - PayPal Style */}
           <div className="text-center max-w-3xl mx-auto mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gray-50 border border-gray-200 mb-6 shadow-sm">
-              <Users size={16} className="text-[#0070ba]" />
+              <Users size={16} className="text-[#019be0]" />
               <span className="text-sm font-medium text-gray-700">Use Cases</span>
             </div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
               Perfect for
-              <span className="block text-[#0070ba] mt-2">
+              <span className="block text-[#019be0] mt-2">
                 any community
               </span>
             </h2>
@@ -80,12 +80,12 @@ const UseCases = () => {
             >
               <div className="relative h-full bg-white rounded-2xl p-6 border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                 {/* Icon with PayPal Blue */}
-                <div className="w-12 h-12 rounded-xl bg-[#0070ba]/10 flex items-center justify-center mb-5 group-hover:bg-[#0070ba] transition-all duration-300">
-                  <useCase.icon size={24} className="text-[#0070ba] group-hover:text-white transition-colors duration-300" />
+                <div className="w-12 h-12 rounded-xl bg-[#019be0]/10 flex items-center justify-center mb-5 group-hover:bg-[#019be0] transition-all duration-300">
+                  <useCase.icon size={24} className="text-[#019be0] group-hover:text-white transition-colors duration-300" />
                 </div>
                 
                 {/* Title */}
-                <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-[#0070ba] transition-colors">
+                <h3 className="text-xl font-semibold text-gray-900 mb-3 group-hover:text-[#019be0] transition-colors">
                   {useCase.title}
                 </h3>
                 
@@ -99,9 +99,9 @@ const UseCases = () => {
                   {useCase.benefits.map((benefit) => (
                     <span 
                       key={benefit} 
-                      className="inline-flex items-center gap-1 px-3 py-1 text-xs rounded-full bg-gray-50 text-gray-700 border border-gray-200 group-hover:bg-[#0070ba]/5 group-hover:border-[#0070ba]/20 transition-all"
+                      className="inline-flex items-center gap-1 px-3 py-1 text-xs rounded-full bg-gray-50 text-gray-700 border border-gray-200 group-hover:bg-[#019be0]/5 group-hover:border-[#019be0]/20 transition-all"
                     >
-                      <CheckCircle size={10} className="text-[#0070ba]" />
+                      <CheckCircle size={10} className="text-[#019be0]" />
                       {benefit}
                     </span>
                   ))}
@@ -113,7 +113,7 @@ const UseCases = () => {
 
         {/* Success Story Section - PayPal Style */}
         <FadeIn direction="up" delay={0.3}>
-          <div className="bg-gradient-to-r from-[#0070ba] to-[#003087] rounded-2xl overflow-hidden mb-16">
+          <div className="bg-gradient-to-r from-[#019be0] to-[#042e72] rounded-2xl overflow-hidden mb-16">
             <div className="grid lg:grid-cols-2 gap-8 p-8 lg:p-12">
               <div className="flex items-center">
                 <div>
@@ -185,7 +185,7 @@ const UseCases = () => {
         {/* Who Can Use Section - PayPal Style */}
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gray-50 border border-gray-200 mb-6">
-            <Sparkles size={16} className="text-[#0070ba]" />
+            <Sparkles size={16} className="text-[#019be0]" />
             <span className="text-sm font-medium text-gray-700">Perfect For</span>
           </div>
           <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
@@ -212,7 +212,7 @@ const UseCases = () => {
               viewport={{ once: true }}
               className="text-center p-4 rounded-xl bg-gray-50 border border-gray-100 hover:shadow-md transition-all"
             >
-              <div className="text-2xl font-bold text-[#0070ba] mb-1">{category.count}</div>
+              <div className="text-2xl font-bold text-[#019be0] mb-1">{category.count}</div>
               <div className="text-sm text-gray-600">{category.name}</div>
             </motion.div>
           ))}
@@ -220,7 +220,7 @@ const UseCases = () => {
 
         {/* CTA */}
         <div className="text-center">
-          <button className="inline-flex items-center gap-2 text-[#0070ba] font-semibold hover:gap-3 transition-all group">
+          <button className="inline-flex items-center gap-2 text-[#019be0] font-semibold hover:gap-3 transition-all group">
             See more success stories
             <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
           </button>

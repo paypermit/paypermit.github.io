@@ -39,12 +39,12 @@ const HowItWorks = () => {
           {/* Header - PayPal Style */}
           <div className="text-center max-w-3xl mx-auto mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-gray-200 mb-6 shadow-sm">
-              <Zap size={16} className="text-[#0070ba]" />
+              <Zap size={16} className="text-[#019be0]" />
               <span className="text-sm font-medium text-gray-700">Simple Process</span>
             </div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
               Get started in
-              <span className="block text-[#0070ba] mt-2">
+              <span className="block text-[#019be0] mt-2">
                 4 simple steps
               </span>
             </h2>
@@ -57,7 +57,7 @@ const HowItWorks = () => {
         {/* Steps Grid - PayPal Style */}
         <div className="relative mb-16">
           {/* Connection Line - PayPal Style */}
-          <div className="absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-[#0070ba]/20 via-[#ffc439]/40 to-[#0070ba]/20 hidden lg:block" />
+          <div className="absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-[#019be0]/20 via-[#ffc439]/40 to-[#019be0]/20 hidden lg:block" />
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 relative">
             {steps.map((step, index) => (
@@ -72,16 +72,16 @@ const HowItWorks = () => {
                 <div className="bg-white rounded-2xl p-6 text-center border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
                   {/* Step Number Badge */}
                   <div className="relative inline-block mb-6">
-                    <div className="w-20 h-20 rounded-full bg-gradient-to-br from-[#0070ba]/10 to-[#ffc439]/10 flex items-center justify-center mx-auto group-hover:scale-110 transition-transform duration-300">
-                      <step.icon size={32} className="text-[#0070ba] group-hover:text-[#ffc439] transition-colors" />
+                    <div className="w-20 h-20 rounded-full bg-gradient-to-br from-[#019be0]/10 to-[#ffc439]/10 flex items-center justify-center mx-auto group-hover:scale-110 transition-transform duration-300">
+                      <step.icon size={32} className="text-[#019be0] group-hover:text-[#ffc439] transition-colors" />
                     </div>
-                    <div className="absolute -top-2 -right-2 w-8 h-8 rounded-full bg-[#0070ba] text-white flex items-center justify-center text-sm font-bold shadow-md group-hover:bg-[#ffc439] group-hover:text-[#00112c] transition-all duration-300">
+                    <div className="absolute -top-2 -right-2 w-8 h-8 rounded-full bg-[#019be0] text-white flex items-center justify-center text-sm font-bold shadow-md group-hover:bg-[#ffc439] group-hover:text-[#00112c] transition-all duration-300">
                       {step.stepNumber}
                     </div>
                   </div>
                   
                   {/* Title */}
-                  <h3 className="text-xl font-semibold mb-3 text-gray-900 group-hover:text-[#0070ba] transition-colors">
+                  <h3 className="text-xl font-semibold mb-3 text-gray-900 group-hover:text-[#019be0] transition-colors">
                     {step.title}
                   </h3>
                   
@@ -93,7 +93,7 @@ const HowItWorks = () => {
                   {/* Decorative Element */}
                   {index < steps.length - 1 && (
                     <div className="hidden lg:block absolute top-1/2 -right-4 transform -translate-y-1/2">
-                      <ArrowRight size={20} className="text-gray-300 group-hover:text-[#0070ba] transition-colors" />
+                      <ArrowRight size={20} className="text-gray-300 group-hover:text-[#019be0] transition-colors" />
                     </div>
                   )}
                 </div>
@@ -104,7 +104,7 @@ const HowItWorks = () => {
 
         {/* Quick Setup Banner - PayPal Style */}
         <FadeIn direction="up" delay={0.3}>
-          <div className="bg-gradient-to-r from-[#0070ba] to-[#003087] rounded-2xl p-8 text-center">
+          <div className="bg-gradient-to-r from-[#019be0] to-[#042e72] rounded-2xl p-8 text-center">
             <div className="flex flex-col md:flex-row items-center justify-between gap-6">
               <div className="text-left">
                 <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm mb-4">
@@ -163,8 +163,8 @@ const HowItWorks = () => {
               viewport={{ once: true }}
               className="flex items-start gap-3 p-4 rounded-xl bg-white border border-gray-100 shadow-sm hover:shadow-md transition-all"
             >
-              <div className="w-10 h-10 rounded-lg bg-[#0070ba]/10 flex items-center justify-center flex-shrink-0">
-                <item.icon size={18} className="text-[#0070ba]" />
+              <div className="w-10 h-10 rounded-lg bg-[#019be0]/10 flex items-center justify-center flex-shrink-0">
+                <item.icon size={18} className="text-[#019be0]" />
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900 mb-1">{item.title}</h4>
@@ -176,7 +176,7 @@ const HowItWorks = () => {
 
         {/* CTA Button */}
         <div className="text-center mt-12">
-          <button className="px-8 py-4 bg-[#0070ba] text-white rounded-full font-semibold text-lg hover:bg-[#003087] transition-all shadow-md hover:shadow-xl inline-flex items-center gap-2 group">
+          <button className="px-8 py-4 bg-[#019be0] text-white rounded-full font-semibold text-lg hover:bg-[#042e72] transition-all shadow-md hover:shadow-xl inline-flex items-center gap-2 group">
             Start your first project.
             <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform" />
           </button>

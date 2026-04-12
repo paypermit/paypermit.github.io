@@ -15,12 +15,12 @@ const FAQ = () => {
           {/* Header - PayPal Style */}
           <div className="text-center max-w-3xl mx-auto mb-16">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-gray-200 mb-6 shadow-sm">
-              <HelpCircle size={16} className="text-[#0070ba]" />
+              <HelpCircle size={16} className="text-[#019be0]" />
               <span className="text-sm font-medium text-gray-700">FAQ</span>
             </div>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
               Frequently asked
-              <span className="block text-[#0070ba] mt-2">
+              <span className="block text-[#019be0] mt-2">
                 questions
               </span>
             </h2>
@@ -50,15 +50,15 @@ const FAQ = () => {
                     <div className="flex items-center gap-3">
                       <div className={`w-6 h-6 rounded-full flex items-center justify-center transition-all duration-300 ${
                         openIndex === index 
-                          ? 'bg-[#0070ba] text-white' 
-                          : 'bg-gray-100 text-gray-400 group-hover:bg-[#0070ba]/10'
+                          ? 'bg-[#019be0] text-white' 
+                          : 'bg-gray-100 text-gray-400 group-hover:bg-[#019be0]/10'
                       }`}>
                         <HelpCircle size={14} />
                       </div>
                       <span className={`font-semibold transition-colors ${
                         openIndex === index 
-                          ? 'text-[#0070ba]' 
-                          : 'text-gray-900 group-hover:text-[#0070ba]'
+                          ? 'text-[#019be0]' 
+                          : 'text-gray-900 group-hover:text-[#019be0]'
                       }`}>
                         {faq.question}
                       </span>
@@ -67,8 +67,8 @@ const FAQ = () => {
                       size={20}
                       className={`transform transition-all duration-300 ${
                         openIndex === index 
-                          ? 'rotate-180 text-[#0070ba]' 
-                          : 'text-gray-400 group-hover:text-[#0070ba]'
+                          ? 'rotate-180 text-[#019be0]' 
+                          : 'text-gray-400 group-hover:text-[#019be0]'
                       }`}
                     />
                   </div>
@@ -95,7 +95,7 @@ const FAQ = () => {
 
         {/* Help Center Section - PayPal Style */}
         <FadeIn direction="up" delay={0.3}>
-          <div className="bg-gradient-to-r from-[#0070ba] to-[#003087] rounded-2xl p-8 mb-12">
+          <div className="bg-gradient-to-r from-[#019be0] to-[#042e72] rounded-2xl p-8 mb-12">
             <div className="flex flex-col md:flex-row items-center justify-between gap-6">
               <div className="flex items-center gap-4">
                 <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center">
@@ -108,7 +108,7 @@ const FAQ = () => {
               </div>
               <a href='https://t.me/paypermitsupport'>
 
-              <button className="px-6 py-3 bg-white text-[#0070ba] rounded-full font-semibold hover:bg-gray-100 transition-all shadow-md hover:shadow-lg inline-flex items-center gap-2 group">
+              <button className="px-6 py-3 bg-white text-[#019be0] rounded-full font-semibold hover:bg-gray-100 transition-all shadow-md hover:shadow-lg inline-flex items-center gap-2 group">
                 Contact Support
                 <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </button>
@@ -156,22 +156,22 @@ const FAQ = () => {
               className="group"
             >
               <div className="bg-white rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-all duration-300 hover:-translate-y-1 text-center">
-                <div className="w-12 h-12 rounded-full bg-[#0070ba]/10 flex items-center justify-center mx-auto mb-4 group-hover:bg-[#0070ba] transition-all duration-300">
-                  <option.icon size={22} className="text-[#0070ba] group-hover:text-white transition-colors" />
+                <div className="w-12 h-12 rounded-full bg-[#019be0]/10 flex items-center justify-center mx-auto mb-4 group-hover:bg-[#019be0] transition-all duration-300">
+                  <option.icon size={22} className="text-[#019be0] group-hover:text-white transition-colors" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-2">{option.title}</h3>
                 <p className="text-gray-600 text-sm mb-4">{option.description}</p>
                 {option.type === 'email' ? (
                   <a 
                     href={`mailto:${option.action}`} 
-                    className="inline-flex items-center gap-1 text-[#0070ba] text-sm font-medium hover:gap-2 transition-all group-hover:gap-2"
+                    className="inline-flex items-center gap-1 text-[#019be0] text-sm font-medium hover:gap-2 transition-all group-hover:gap-2"
                   >
                     {option.action}
                     <ArrowRight size={14} />
                   </a>
                 ) : (
                   <a href={option.link}>
-                    <button className="inline-flex items-center gap-1 text-[#0070ba] text-sm font-medium hover:gap-2 transition-all group-hover:gap-2">
+                    <button className="inline-flex items-center gap-1 text-[#019be0] text-sm font-medium hover:gap-2 transition-all group-hover:gap-2">
                     {option.action}
                     <ArrowRight size={14} />
                   </button>
@@ -186,7 +186,7 @@ const FAQ = () => {
         <div className="mt-12 text-center">
           <p className="text-sm text-gray-500">
             Can't find what you're looking for? Check out our{' '}
-            <a href="https://t.me/paypermitsupport" className="text-[#0070ba] hover:underline font-medium">
+            <a href="https://t.me/paypermitsupport" className="text-[#019be0] hover:underline font-medium">
               Help Center
             </a>{' '}
             
